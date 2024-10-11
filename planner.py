@@ -6,9 +6,14 @@ df = pd.read_csv('/Users/shreyhanlakhina/Dropbox/CWRUplanner/test.csv')
 
 # Function to process the course selection based on the category format
 def pick_courses(df, category, num_pick=None):
-    if num_pick:
-        return df[df['category'] == category].sample(n=num_pick)
-    return df[df['category'] == category]
+    available_courses = df[df['category'] == category]
+    if num_pick and len(available_courses) >= num_pick:
+        return available_courses.sample(n=num_pick)
+    elif num_pick:
+        print(f"Not enough courses in {category}, returning all available courses")
+        return available_courses
+    return available_courses
+
 
 # Select all required courses
 required_courses = pick_courses(df, 'requirement')
@@ -20,10 +25,20 @@ linearalgebra_pick1 = pick_courses(df, 'linearalgebra_pick1', 1)
 calc3_pick1 = pick_courses(df, 'calc3_pick1', 1)
 stats_pick1 = pick_courses(df, 'stats_pick1', 1)
 security_pick1 = pick_courses(df, 'security_pick1', 1)
+brearea1 = pick_courses(df, 'brarea1_pick2', 2)
+brearea2 = pick_courses(df, 'brarea2_pick2', 2)
+brearea3 = pick_courses(df, 'brarea3_pick2', 2)
+brearea4 = pick_courses(df, 'brarea4_pick2', 2)
 
 # Process categories that require picking a range of courses (e.g., pick 4 to 6 courses)
-csdsgroup1_pick = pick_courses(df, 'csdsgroup1_pick4:6', random.randint(4, 6))
-csdsgroup2_pick = pick_courses(df, 'csdsgroup2_pick0:2', random.randint(0, 2))
+gr1 = random.randint(4, 6)
+gr2 = 6-gr1
+csdsgroup1_pick = pick_courses(df, 'csdsgroup1_pick4:6', gr1)
+csdsgroup2_pick = pick_courses(df, 'csdsgroup2_pick0:2', gr2)
+
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.width', None)
 
 # Combine all selected courses
 final_schedule = pd.concat([
@@ -32,6 +47,10 @@ final_schedule = pd.concat([
     linearalgebra_pick1,
     calc3_pick1,
     stats_pick1,
+    brearea1,
+    brearea2,
+    brearea3,
+    brearea4,
     security_pick1,
     csdsgroup1_pick,
     csdsgroup2_pick
