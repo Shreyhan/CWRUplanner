@@ -1,0 +1,115 @@
+course_code,name,description,preereqs,credit_hours,category
+CSDSÊ132,Programming in Java,,,3,requirement
+CSDSÊ233,Introduction to Data Structures,,,4,requirement
+CSDSÊ281,Logic Design and Computer Organization,,,4,requirement
+CSDSÊ302,Discrete Mathematics,,,3,requirement
+CSDSÊ310,Algorithms,,,3,requirement
+CSDSÊ395,Senior Project in Computer Science,,,4,requirement
+CHEMÊ111,Principles of Chemistry for Engineers,,,4,requirement
+ENGRÊ399,Impact of Engineering on Society,,,3,requirement
+MATHÊ121,Calculus for Science and Engineering I,,,4,requirement
+MATHÊ122,Calculus for Science and Engineering II,,,4,calc2_pick1
+MATHÊ124,Calculus II,,,4,calc2_pick1
+MATHÊ201,Introduction to Linear Algebra for Applications,,,3,linearalgebra_pick1
+MATHÊ307,Linear Algebra,,,3,linearalgebra_pick1
+MATHÊ223,Calculus for Science and Engineering III,,,3,calc3_pick1
+MATHÊ227,Calculus III,,,3,calc3_pick1
+PHYSÊ121,General Physics I - Mechanics,,,4,requirement
+PHYSÊ122,General Physics II - Electricity and Magnetism,,,4,requirement
+MATHÊ380,Introduction to Probability,,,3,stats_pick1
+OPREÊ207,Statistics for Business and Management Science I,,,3,stats_pick1
+STATÊ312,Basic Statistics for Engineering and Science,,,3,stats_pick1
+STATÊ312R,Basic Statistics for Engineering and Science Using R Programming,,,3,stats_pick1
+STATÊ313,Statistics for Experimenters,,,3,stats_pick1
+STATÊ332,Statistics for Signal Processing,,,3,stats_pick1
+STATÊ333,Uncertainty in Engineering and Science,,,3,stats_pick1
+ECSEÊ301,Digital Logic Laboratory,,,2,csdsgroup1_pick4:6
+ECSEÊ303,Embedded Systems Design and Laboratory,,,3,csdsgroup1_pick4:6
+ECSEÊ315,Digital Systems Design,,,4,csdsgroup1_pick4:6
+ECSEÊ317,Computer Design - FPGAs,,,3,csdsgroup1_pick4:6
+ECSEÊ419,Computer System Architecture,,,3,csdsgroup1_pick4:6
+ECSEÊ484,Computational Intelligence I: Basic Principles,,,3,csdsgroup1_pick4:6
+ECSEÊ485,VLSI Systems,,,3,csdsgroup1_pick4:6
+ECSEÊ488,Embedded Systems Design,,,3,csdsgroup1_pick4:6
+MATHÊ330,Introduction to Scientific Computing,,,3,csdsgroup1_pick4:6
+MATHÊ382,High Dimensional Probability,,,3,csdsgroup1_pick4:6
+MATHÊ406,Mathematical Logic and Model Theory,,,3,csdsgroup1_pick4:6
+MATHÊ408,Introduction to Cryptology,,,3,csdsgroup1_pick4:6
+MATHÊ431,Introduction to Numerical Analysis I,,,3,csdsgroup1_pick4:6
+MATHÊ444,Mathematics of Data Mining and Pattern Recognition,,,3,csdsgroup1_pick4:6
+PHILÊ306,Mathematical Logic and Model Theory,,,3,csdsgroup1_pick4:6
+PHILÊ393,Ethics of Artificial Intelligence and Emerging Technology,,,3,csdsgroup1_pick4:6
+DSCIÊ330,Cognition and Computation,,,3,csdsgroup2_pick0:2
+DSCIÊ351,Exploratory Data Science,,,3,csdsgroup2_pick0:2
+DSCIÊ352,Applied Data Science Research,,,3,csdsgroup2_pick0:2
+DSCIÊ353,"Data Science: Statistical Learning, Modeling and Prediction",,,3,csdsgroup2_pick0:2
+ECONÊ380,Computational Economics,,,3,csdsgroup2_pick0:2
+ECSEÊ245,Electronic Circuits,,,4,csdsgroup2_pick0:2
+ECSEÊ246,Signals and Systems,,,4,csdsgroup2_pick0:2
+ECSEÊ304,Control Engineering I with Laboratory,,,3,csdsgroup2_pick0:2
+ECSEÊ305,Control Engineering I Laboratory,,,1,csdsgroup2_pick0:2
+ECSEÊ309,Electromagnetic Fields I,,,3,csdsgroup2_pick0:2
+ECSEÊ313,Signal Processing,,,3,csdsgroup2_pick0:2
+ECSEÊ318,VLSI/CAD,,,4,csdsgroup2_pick0:2
+ECSEÊ319,Applied Probability and Stochastic Processes for Biology,,,3,csdsgroup2_pick0:2
+ECSEÊ324,Modeling and Simulation of Continuous Dynamical Systems,,,3,csdsgroup2_pick0:2
+ECSEÊ346,Engineering Optimization,,,3,csdsgroup2_pick0:2
+ECSEÊ350,Operations and Systems Design,,,3,csdsgroup2_pick0:2
+ECSEÊ354,Digital Communications,,,3,csdsgroup2_pick0:2
+ECSEÊ375,Applied Control,,,3,csdsgroup2_pick0:2
+ECSEÊ408,Introduction to Linear Systems,,,3,csdsgroup2_pick0:2
+ECSEÊ413,Nonlinear Systems I,,,3,csdsgroup2_pick0:2
+ECSEÊ414,Wireless Communications,,,3,csdsgroup2_pick0:2
+ECSEÊ416,Convex Optimization for Engineering,,,3,csdsgroup2_pick0:2
+ECSEÊ489,Robotics I,,,3,csdsgroup2_pick0:2
+ENGRÊ210,Introduction to Circuits and Instrumentation,,,4,csdsgroup2_pick0:2
+MATHÊ224,Elementary Differential Equations,,,3,csdsgroup2_pick0:2
+MATHÊ228,Differential Equations,,,3,csdsgroup2_pick0:2
+MATHÊ303,Elementary Number Theory,,,3,csdsgroup2_pick0:2
+MATHÊ308,Introduction to Abstract Algebra,,,3,csdsgroup2_pick0:2
+MATHÊ327,Convexity and Optimization,,,3,csdsgroup2_pick0:2
+MATHÊ439,Bayesian Scientific Computing,,,3,csdsgroup2_pick0:2
+MATHÊ497,Stochastic Models: Time Series and Markov Chains,,,3,csdsgroup2_pick0:2
+PHILÊ201,Introduction to Logic,,,3,csdsgroup2_pick0:2
+PHYSÊ221,Introduction to Modern Physics,,,3,csdsgroup2_pick0:2
+PHYSÊ250,Computational Methods in Physics,,,3,csdsgroup2_pick0:2
+STATÊ345,Theoretical Statistics I,,,3,csdsgroup2_pick0:2
+STATÊ346,Theoretical Statistics II,,,3,csdsgroup2_pick0:2
+CSDSÊ341,Introduction to Database Systems,,,3,brarea1_pick2
+CSDSÊ356,Data Privacy,,,3,brarea1_pick2
+CSDSÊ390,Advanced Game Development Project,,,3,brarea1_pick2
+CSDSÊ393,Software Engineering,,,3,brarea1_pick2
+CSDSÊ312,Introduction to Data Science Systems,,,3,brarea2_pick2
+CSDSÊ314,Computer Architecture,,,3,brarea2_pick2
+CSDSÊ325,Computer Networks I,,,3,brarea2_pick2
+CSDSÊ338,Intro to Operating Systems and Concurrent Programming,,,4,brarea2_pick2
+CSDSÊ337,Compiler Design,,,4,brarea3_pick2
+CSDSÊ343,Theoretical Computer Science,,,3,brarea3_pick2
+CSDSÊ344,Computer Security,,,3,brarea3_pick2
+CSDSÊ345,Programming Language Concepts,,,3,brarea3_pick2
+CSDSÊ313,Introduction to Data Analysis,,,3,brarea4_pick2
+CSDSÊ335,Data Mining for Big Data,,,3,brarea4_pick2
+CSDSÊ340,Introduction to Machine Learning,,,3,brarea4_pick2
+CSDSÊ391,Introduction to Artificial Intelligence,,,3,brarea4_pick2
+CSDSÊ344,Computer Security,,,3,security_pick1
+CSDSÊ356,Data Privacy,,,3,security_pick1
+CSDSÊ427,Internet Security and Privacy,,,3,security_pick1
+CSDSÊ444,Computer Security,,,3,security_pick1
+CSDSÊ448,Smartphone Security,,,3,security_pick1
+MATHÊ408,Introduction to Cryptology,,,3,security_pick1
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
