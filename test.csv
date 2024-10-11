@@ -2,8 +2,8 @@ course_code,name,description,preereqs,credit_hours,category
 CSDSÊ132,Programming in Java,,,3,requirement
 CSDSÊ233,Introduction to Data Structures,,,4,requirement
 CSDSÊ281,Logic Design and Computer Organization,,,4,requirement
-CSDSÊ302,Discrete Mathematics,,,3,requirement
-CSDSÊ310,Algorithms,,,3,requirement
+CSDS 302,Discrete Mathematics,,,3,requirement
+CSDS 310,Algorithms,,,3,requirement
 CSDSÊ395,Senior Project in Computer Science,,,4,requirement
 CHEMÊ111,Principles of Chemistry for Engineers,,,4,requirement
 ENGRÊ399,Impact of Engineering on Society,,,3,requirement
@@ -15,7 +15,7 @@ MATHÊ307,Linear Algebra,,,3,linearalgebra_pick1
 MATHÊ223,Calculus for Science and Engineering III,,,3,calc3_pick1
 MATHÊ227,Calculus III,,,3,calc3_pick1
 PHYSÊ121,General Physics I - Mechanics,,,4,requirement
-PHYSÊ122,General Physics II - Electricity and Magnetism,,,4,requirement
+PHYS 122,General Physics II - Electricity and Magnetism,,,4,requirement
 MATHÊ380,Introduction to Probability,,,3,stats_pick1
 OPREÊ207,Statistics for Business and Management Science I,,,3,stats_pick1
 STATÊ312,Basic Statistics for Engineering and Science,,,3,stats_pick1
