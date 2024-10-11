@@ -2,7 +2,7 @@ import pandas as pd
 import random
 
 # Load the CSV file
-df = pd.read_csv('/Users/shreyhanlakhina/Dropbox/CWRUplanner/test.csv', encoding='ISO-8859-1')
+df = pd.read_csv('/Users/shreyhanlakhina/Dropbox/CWRUplanner/test.csv')
 
 # Function to process the course selection based on the category format
 def pick_courses(df, category, num_pick=None):
